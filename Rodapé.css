@@ -1,0 +1,29 @@
+#svg{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 28%;
+
+}
+#textt{
+    margin-top: 25%;
+    margin-right: 100%;
+}
+body{
+    background-color: #050C01 ;
+}
+#text{
+    background-color: #85B924;
+    font-size: 165%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 30px;
+    height: 4vh;
+    margin-top: 3%;
+    margin-left: 35%;
+    text-align: center;
+    
+}
+#ima {
+    height: 25vh;
+    width: 50%;
+
+}

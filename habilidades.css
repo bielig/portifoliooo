@@ -1,0 +1,84 @@
+body{
+    background-color:#050C01 ;
+
+}
+#Tenhohab{
+    color: #FCE99C;
+    font-size: 270%;
+    font-family: "Inder", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+header{
+    width: 100%;
+    text-align: center;
+    
+}
+main{
+    border-left: 50%;
+}
+#imagens{
+    display: grid;
+    padding-top: 5%;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+
+}
+#mainn{
+    border-left: 13px solid #85B924;
+    border-right: 13px solid #85B924;    
+    height: 70vh;
+    width: 90%;
+    margin-left: 4%;
+}
+#tamanho{
+    height: 25vh;
+}
+#mcc{
+    width: 2%;
+}
+#imagens2{
+    display: grid;
+    grid-template-columns: 1.3fr 1fr 1fr 1fr;
+    margin-top: 5%;
+}
+button{
+    border-radius: 30px;
+    height: 6vh;
+    width: 70%;
+    background-color: #85B924;
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    font-size: 130%;
+}
+footer{
+    display:grid;
+    grid-template-columns: 0.2fr 1fr 1fr 1fr;
+}
+@media(max-width:375px)
+{
+    #Tenhohab
+    {
+        font-size: 170%;
+    }
+    #mainn
+    {
+        border-left: 5px solid #85B924;
+    border-right: 5px solid #85B924;
+    }
+    #tamanho{
+        height: 15vh;
+    }
+    #imagens22{
+        height: 15vh;
+    }
+    #imagens2{
+
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            margin-top: 5%;
+        
+    }
+
+
+}

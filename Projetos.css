@@ -1,0 +1,127 @@
+body{
+background-color: #050C01 ;
+}
+header div{
+    color: #FCE99C;
+    font-size: 270%;
+    font-family: "Inder", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 30%;
+  margin-top: 3%;
+}
+main{
+    display:grid;
+    grid-template-columns: 0.6fr 1fr 1.5fr 1fr 1.5fr;
+    margin-top: 5%;
+
+}
+section{
+    display:grid;
+    grid-template-columns: 1.5fr 1.5fr 2.5fr 1.5fr 1.5fr;
+    margin-top: 5%;
+
+}
+
+#Elite{
+    height: 40vh;
+    width: 190%;
+    border: 5px solid #85B924;
+    border-radius: 5px;
+    
+}
+#Ogani{
+    height: 40vh;
+    width: 190%;
+    border: 5px solid #85B924;
+    border-radius: 5px;
+}
+#Elitee{
+    color: #FCE99C ;
+    text-align: center;
+    font-size: large;
+}
+#Oganii{    color: #FCE99C ;
+    text-align: center;
+    font-size: large;
+}
+footer{
+    display: grid;
+    grid-template-columns: 0.3fr 1fr 1.3fr 1fr;
+margin-top: 6%;
+}
+button{
+    border-radius: 30px;
+    height: 6vh;
+    width: 70%;
+    background-color: #85B924;
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    font-size: 130%;
+}
+@media (max-width: 375px)
+{
+    header div{
+        color: #FCE99C;
+        font-size: 150%;
+        font-family: "Inder", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      margin-left: 10%;
+      margin-top: 10%;
+
+    }
+    #Elite{
+        height: 30vh;
+        width: 250%;
+        border: 5px solid #85B924;
+        border-radius: 5px;
+        
+    }
+    #Ogani{
+        height: 30vh;
+        width: 250%;
+        border: 5px solid #85B924;
+        border-radius: 5px;
+    }
+    main{
+        margin-left: -15%;
+        margin-top: 20%;
+
+    }
+    #Elitee{
+        color: #FCE99C ;
+        text-align: center;
+        font-size: 100%;
+    }
+    #Oganii{    color: #FCE99C ;
+        text-align: center;
+        font-size: 100%;
+    }
+    section{
+        display:grid;
+        grid-template-columns: 0.3fr 2fr 0.5fr 2fr 0.3fr;
+        margin-top: 5%;
+    
+    }
+    
+        footer{
+            display: grid;
+            grid-template-columns: 0.3fr 1fr 1.3fr 1fr;
+        margin-top: 30%;
+        }
+        button{
+            border-radius: 30px;
+            height: 6vh;
+            width: 100%;
+            background-color: #85B924;
+            border: none;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        
+            font-size: 100%;
+        }
+
+    
+
+}

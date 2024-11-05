@@ -1,0 +1,111 @@
+body {
+    background-color: #050C01;
+}
+
+header {
+    margin-top: 3%;
+    margin-left: 3%;
+}
+
+#Quemsou {
+    
+    color: #FCE99C;
+    font-size: 270%;
+    font-family: "Inder", sans-serif;
+  font-weight: 400;
+  font-style: normal;    
+}
+
+main {
+    margin-top: 4%;
+    text-align: center;
+    margin-left: 3%;
+}
+
+#Meunome {
+    color: #03360D;
+    background-color: #85B924;
+    padding-top: 4%;
+    padding-bottom: 2%;
+    font-size: 250%;
+    border-radius: 5px;
+    width: 96%;
+}
+
+section {
+    margin-top: 1%;
+    text-align: center;
+    margin-left: 3%;
+
+}
+
+#section2 {
+    color: #03360D;
+    background-color: #85B924;
+    width: 96%;
+    font-size: 250%;
+    border-radius: 5px;
+    padding-top: 3%;
+    padding-bottom: 2%;
+}
+
+#Estoucursando {
+    color: #03360D;
+    background-color: #85B924;
+    width: 96%;
+    font-size: 250%;
+    border-radius: 5px;
+    padding-top: 3%;
+    padding-bottom: 2%;
+
+
+}
+
+footer {
+    margin-top: 7%;
+    margin-left: 70%;
+
+}
+
+button {
+    border-radius: 30px;
+    height: 6vh;
+    width: 85%;
+    background-color: #85B924;
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    font-size: 130%;
+}
+
+@media(max-width: 375px) {
+    #Quemsou {
+        font-size: 150%;
+        margin-top: 10%;
+    }
+
+    #Meunome {
+        font-size: 120%;
+    }
+    #Estoucursando{
+        font-size: 120%;
+    }
+    #section2{
+        font-size: 120%;
+    }
+    button{
+        font-size: 100%;
+        width: 100%;
+        
+    }
+    footer{
+        margin-left: 40%;
+        margin-top: 50%;
+    }
+    main{
+        margin-top: 20%;
+    }
+    section{
+        margin-top: 3%;
+    }
+}
